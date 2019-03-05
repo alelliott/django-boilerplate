@@ -3,7 +3,7 @@
 If you have `docker` and `docker-compose` on your system, first copy the env file with `cp sample.env .env`, update your ```.env``` file, then run `docker-compose up --build` to quickly bring up `django` and `postgres` preconfigured and bound to their default ports.  
 
 Once built, migrate and create a superuser with the following commands:  
-`docker-compose exec web python manage.py migrate`
+`docker-compose exec web python manage.py migrate`  
 `docker-compose exec web python manage.py createsuperuser`  
 
 ## Local Setup  
